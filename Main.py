@@ -11,11 +11,6 @@ questions = {
 
 answers = ["b","b","b","b","b","a","a","d"]
 
-# for i,q in enumerate(questions.items()):
-#     print(q[0],":")
-#     print(q[1][0],",",q[1][1])
-#     print(q[1][2],",",q[1][3])
-
 i = 0
 while i<len(questions):
     l = [(q,o) for q,o in questions.items()]
